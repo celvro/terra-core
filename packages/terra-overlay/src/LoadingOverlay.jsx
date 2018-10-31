@@ -33,7 +33,7 @@ const propTypes = {
   */
   isRelativeToContainer: PropTypes.bool,
   /**
-   * Allows assigning of root element custom data attribute for easy selecting of document base component.
+   * Query selector used to hide the DOM that is not part of the overlay which prevents focus from moving outside of the overlay.
    */
   rootSelector: PropTypes.string,
   /**
